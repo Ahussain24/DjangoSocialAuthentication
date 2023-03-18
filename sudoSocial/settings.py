@@ -140,8 +140,8 @@ AUTHENTICATION_BACKENDS = [
 
 
 #Replace your key here 
-SOCIAL_AUTH_GOOGLE_OAUTH2_KEY = '938986682754-jkg2021319nhpmln32ij1i1qlos8teel.apps.googleusercontent.com'
-SOCIAL_AUTH_GOOGLE_OAUTH2_SECRET = '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'
+SOCIAL_AUTH_GOOGLE_OAUTH2_KEY = '####'
+SOCIAL_AUTH_GOOGLE_OAUTH2_SECRET = '###'
 
 
 SOCIAL_AUTH_GOOGLE_OAUTH2_SCOPE = ['profile', 'email'] #Remove this in case of errors 
