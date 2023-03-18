@@ -1,0 +1,24 @@
+{% extends 'base.html' %}
+
+{% block title %}
+    Sign in
+{% endblock %}
+
+{% block content %}
+    <div class="row justify-content-center">
+        <div class="col-md-8 mx-auto social-container my-2 order-md-1 text-center">
+            <button class="btn btn-primary mb-2">
+                <a href="{% url 'social:begin' 'google-oauth2' %}">
+                    <i class="fab fa-google"></i> Login with Google
+                </a>
+            </button>
+            <span class="mx-2">or</span>
+			<p class="mb-2">Don't have an account?</p>
+            <button class="btn btn-primary mb-2">
+                <a href="{% url 'social:begin' 'google-oauth2' %}">
+                    <i class="fab fa-google"></i> Sign up with Google
+                </a>
+            </button>
+        </div>
+    </div>
+{% endblock %}
